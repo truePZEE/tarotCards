@@ -22,7 +22,7 @@ export default defineComponent({
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: url('../../public/img/background/main-background.jpg') no-repeat center center fixed;
+  width: 100%;
   background-size: cover;
   color: white;
   text-align: center;
