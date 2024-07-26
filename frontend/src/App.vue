@@ -14,6 +14,7 @@ import TheWelcome from './components/TheWelcome.vue'
 
   <main>
     <TheWelcome />
+    <div class="salam">  Саламмммм </div>
   </main>
 </template>
 
@@ -43,5 +44,9 @@ header {
     place-items: flex-start;
     flex-wrap: wrap;
   }
+  .salam {display: flex;
+    place-items: flex-start;
+    flex-wrap: wrap;
+    background-color: aqua}
 }
 </style>
